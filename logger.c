@@ -47,7 +47,7 @@ void logger_clear(void)
 
 void logger_log(log_level_t level, const char* fmt, ...)
 {
-	time_t  now;
+    time_t  now;
     va_list args;
     char    timestamp[32];
 
@@ -62,7 +62,7 @@ void logger_log(log_level_t level, const char* fmt, ...)
 
 void logger_log_f(log_level_t level, FILE* fp, const char* fmt, ...)
 {
-	time_t  now;
+    time_t  now;
     va_list args;
     char    timestamp[32];
 
